@@ -1,16 +1,14 @@
-# toko_kita
+## List Ikan
+![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/46bbc3ae-7ea0-47f5-b0fc-1363d3e44f3e)
 
-A new Flutter project.
+## Tambah Ikan
+![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/1c0251ca-13c9-4be7-a682-93160239289b)
 
-## Getting Started
+## Lihat Ikan
+![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/0851b12f-538a-43e3-a8c5-737e45c0fb68)
 
-This project is a starting point for a Flutter application.
+## Edit Ikan
+![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/70d4b952-e7d3-4fad-bef8-f9bacb5c92f7)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Hapus Ikan
+![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/3c6b9fe4-5b66-4047-bb0d-034f00ca3d6c)
