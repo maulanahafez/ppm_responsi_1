@@ -5,10 +5,10 @@
 ![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/1c0251ca-13c9-4be7-a682-93160239289b)
 
 ## Lihat Ikan
-![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/0851b12f-538a-43e3-a8c5-737e45c0fb68)
+![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/d4f29918-a948-4a92-9d77-ec1e2f99d2db)
 
 ## Edit Ikan
-![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/70d4b952-e7d3-4fad-bef8-f9bacb5c92f7)
+![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/d16e0702-056e-4147-a681-7db1b8c90148)
 
 ## Hapus Ikan
-![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/3c6b9fe4-5b66-4047-bb0d-034f00ca3d6c)
+![image](https://github.com/maulanahafez/ppm_responsi_1/assets/102271511/74f35bdc-888a-42fe-9950-f201c307fa84)
