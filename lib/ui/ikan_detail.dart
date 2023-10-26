@@ -1,40 +1,48 @@
 import 'package:flutter/material.dart';
-import 'package:toko_kita/bloc/produk_bloc.dart';
-import 'package:toko_kita/model/produk.dart';
-import 'package:toko_kita/ui/produk_form.dart';
-import 'package:toko_kita/ui/produk_page.dart';
-import 'package:toko_kita/widget/warning_dialog.dart';
+import 'package:ppm_responsi_1/bloc/ikan_bloc.dart';
+import 'package:ppm_responsi_1/model/ikan.dart';
+import 'package:ppm_responsi_1/ui/ikan_form.dart';
+import 'package:ppm_responsi_1/ui/ikan_page.dart';
+import 'package:ppm_responsi_1/widget/warning_dialog.dart';
 
-class ProdukDetail extends StatefulWidget {
-  Produk? produk;
+class IkanDetail extends StatefulWidget {
+  Ikan? ikan;
 
-  ProdukDetail({Key? key, this.produk}) : super(key: key);
+  IkanDetail({Key? key, this.ikan}) : super(key: key);
 
   @override
-  _ProdukDetailState createState() => _ProdukDetailState();
+  _IkanDetailState createState() => _IkanDetailState();
 }
 
-class _ProdukDetailState extends State<ProdukDetail> {
+class _IkanDetailState extends State<IkanDetail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Produk : Hafez'),
+        title: const Text('Detail Ikan'),
       ),
       body: Center(
         child: Column(
           children: [
             Text(
-              "Kode : ${widget.produk!.kodeProduk}",
+              "ID : ${widget.ikan!.id}",
               style: const TextStyle(fontSize: 20.0),
             ),
             Text(
-              "Nama : ${widget.produk!.namaProduk}",
-              style: const TextStyle(fontSize: 18.0),
+              "Nama : ${widget.ikan!.nama}",
+              style: const TextStyle(fontSize: 20.0),
             ),
             Text(
-              "Harga : Rp. ${widget.produk!.hargaProduk.toString()}",
-              style: const TextStyle(fontSize: 18.0),
+              "Jenis : ${widget.ikan!.jenis}",
+              style: const TextStyle(fontSize: 20.0),
+            ),
+            Text(
+              "Warna : ${widget.ikan!.warna}",
+              style: const TextStyle(fontSize: 20.0),
+            ),
+            Text(
+              "Habitat : ${widget.ikan!.habitat}",
+              style: const TextStyle(fontSize: 20.0),
             ),
             _tombolHapusEdit()
           ],
@@ -53,8 +61,8 @@ class _ProdukDetailState extends State<ProdukDetail> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => ProdukForm(
-                  produk: widget.produk!,
+                builder: (context) => IkanForm(
+                  ikan: widget.ikan!,
                 ),
               ),
             );
@@ -76,10 +84,10 @@ class _ProdukDetailState extends State<ProdukDetail> {
         OutlinedButton(
           child: const Text("Ya"),
           onPressed: () {
-            ProdukBloc.deleteProduk(widget.produk!.id).then((value) {
+            IkanBloc.deleteIkan(widget.ikan!.id).then((value) {
               if (value) {
                 Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => const ProdukPage(),
+                  builder: (context) => const IkanPage(),
                 ));
               } else {
                 showDialog(
